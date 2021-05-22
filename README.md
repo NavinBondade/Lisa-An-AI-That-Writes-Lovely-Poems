@@ -21,3 +21,10 @@
 <p>For generating the poetry, I have created a deep learning model that uses two LSTM layers which help the model to remember long-term dependencies and learn the relationship between the poem sentence. The LSTM layers are get followed by two dense layers, one uses RELU as an activation function, and the last dense layer using softmax.</p>
 <h2>Model Traning</h2>
 <p>The model has trained for 170 epochs. During training, the model uses Adam as an optimizer and uses categorical cross-entropy as the loss function to penalize the model more when it makes a false prediction.</p>
+<h2>Model Analysis</h2>
+<p align="center">
+<img src="https://github.com/NavinBondade/Lisa-An-AI-That-Writes-Lovely-Poems/blob/main/Graphs/Accuracy.png" alt="Accuracy" >
+</p>
+<p align="center">
+<img src="https://github.com/NavinBondade/Lisa-An-AI-That-Writes-Lovely-Poems/blob/main/Graphs/Loss.png" alt="Loss" >
+</p>
