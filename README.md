@@ -30,6 +30,8 @@
 </p>
 <p>After model training for 170 epochs, the model has achieved an impressive accuracy of 95% and a very low loss of 0.1782.</p>
 <h2>Beautiful Poems (Model's Ouput)</h2>
-```html
-   // code for coloring
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
 ```
