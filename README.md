@@ -14,6 +14,6 @@
   <li>Wordcloud</li>
 </ul>
 <h2>Word Cloud Representation</h2>
-<p align="center">
-<img src="https://github.com/NavinBondade/Lisa-An-AI-That-Writes-Lovely-Poems/blob/main/Graphs/Word%20Cloud.png" alt="wordcloud_representation" >
-</p> 
+<img src="https://github.com/NavinBondade/Lisa-An-AI-That-Writes-Lovely-Poems/blob/main/Graphs/Word%20Cloud.png" alt="wordcloud_representation">
+<h2>Model Details</h2>
+<p>For generating the poetry, I have created a deep learning model that uses two LSTM layers which help the model to remember long-term dependencies and learn the relationship between the poem sentence. The LSTM layers are get followed by two dense layers, one uses RELU as an activation function, and the last dense layer using softmax.</p>
