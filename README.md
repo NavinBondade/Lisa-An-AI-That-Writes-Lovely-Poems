@@ -42,7 +42,13 @@ Additionally, the model utilizes categorical cross-entropy as its loss function.
 <p align="center">
 <img src="https://github.com/NavinBondade/Lisa-An-AI-That-Writes-Lovely-Poems/blob/main/Graphs/Accuracy.png" alt="Accuracy" >
 </p>
-<p>After model training for 170 epochs, the model has achieved an impressive accuracy of 95% and a very low loss of 0.1782.</p>
+<p>After training the model for 170 epochs, it has demonstrated exceptional performance, achieving an accuracy of 95% and reducing the loss to a remarkable 0.1782. The learning curves illustrate steady and consistent progress throughout the training process.
+
+In the loss graph, the initial value starts high at over 7, and we observe a sharp decline during the first 50 epochs, indicating effective learning. As training continues, the loss gradually plateaus, maintaining a very low level, which suggests that the model is not only learning well but also generalizing effectively with minimal overfitting.
+
+The accuracy graph, on the other hand, shows a progressive increase, where accuracy quickly rises in the first few epochs, crossing the 60% mark by epoch 50. By epoch 170, the accuracy stabilizes near 95%, demonstrating the model's strong predictive capabilities. The gradual improvement in accuracy with minimal fluctuations further reinforces the stability and reliability of the model over time.
+
+In summary, these metrics and visualizations reflect a well-optimized model, capable of achieving high accuracy while maintaining a very low loss, indicative of efficient learning and excellent generalization.</p>
 <h2>Beautiful Poems (Model's Ouput)</h2>
 <h3>Title: Friendship</h3>
 <p>an worry as we send instead of my purpose an <br>
