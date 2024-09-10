@@ -77,4 +77,5 @@ husband is stretched out on the ground as if he <br>
 brings me chocolate from the pentagon dark chocolates shaped like</p>
 
 <h2>Conclusion</h2>
-<p>In this project, I have created a deep learning model that foretells how the stock price of a company will behave by considering major news headlines with an impressive accuracy of 98 percent.</p>
+<p>In conclusion, this project successfully integrates the artistry of poetry with the precision of deep learning, resulting in a system that generates poems with both creativity and coherence. By leveraging advanced NLP techniques and LSTM-based architectures, the model captures the nuances of language and poetic structure, producing emotionally resonant and technically refined verses. The model's training over 170 epochs, with the use of efficient optimizers and loss functions, has yielded impressive results, achieving 95% accuracy and a low loss of 0.1782. These metrics, coupled with the smooth learning curves, demonstrate the system's ability to balance artistic expression with algorithmic efficiency, ultimately automating the creative process while preserving the essence of poetry.
+</p>
