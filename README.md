@@ -5,7 +5,8 @@
 </a>
 </p>
 <img src="https://compote.slate.com/images/90194c2c-a99e-4c6f-9615-d9df031b6586.jpg" width="950" height="650">
-<p>“There is no rule on how to write. Sometimes it comes easily and perfectly: sometimes it’s like drilling rock and then blasting it out with charges” — Ernest Hemingway</p></p>Following this notion, here in this project, I have created a system that uses natural language processing and a deep learning system for writing beautiful poems.</p>
+<p>“There is no rule on how to write. Sometimes it comes easily and perfectly: sometimes it’s like drilling rock and then blasting it out with charges” — Ernest Hemingway</p></p>In line with Ernest Hemingway's observation that writing can either flow smoothly or require immense effort, this project harnesses the power of Natural Language Processing (NLP) and Deep Learning to craft beautiful poems with precision and creativity. The system combines the elegance of human language with advanced neural network architectures, designed to understand linguistic patterns, structures, and emotions. By leveraging large-scale data and modern machine learning algorithms, it generates poetry that is both emotionally resonant and technically refined, embodying the art of writing while reducing the cognitive strain associated with it. This system not only automates the creative process but also captures the nuances of poetic expression, offering a seamless fusion of technology and artistry.
+</p>
 <h2>Libraries Used</h2>
 <ul>
   <li>Tensorflow</li>
