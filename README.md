@@ -67,3 +67,6 @@ of time and even whatever i know an grant you <br>
 are running away from everyone who loves you from your <br>
 husband is stretched out on the ground as if he <br>
 brings me chocolate from the pentagon dark chocolates shaped like</p>
+
+<h2>Conclusion</h2>
+<p>In this project, I have created a deep learning model that foretells how the stock price of a company will behave by considering major news headlines with an impressive accuracy of 98 percent.</p>
