@@ -32,7 +32,9 @@ After the LSTM layers, the architecture incorporates two Dense layers. The first
 
 This carefully designed architecture allows the model to balance creativity with structure, generating poems that are not only aesthetically pleasing but also coherent and contextually meaningful.</p>
 <h2>Model Traning</h2>
-<p>The model has trained for 170 epochs. During training, the model uses Adam as an optimizer and uses categorical cross-entropy as the loss function to penalize the model more when it makes a false prediction.</p>
+<p>The model was trained over the course of 170 epochs, allowing it to gradually refine its ability to generate poetry. During the training process, the Adam optimizer was employed, which is well-regarded for its efficiency in handling sparse gradients and its adaptability in adjusting learning rates. This choice of optimizer ensures that the model converges more quickly and effectively toward minimizing the error, even in complex, high-dimensional spaces like those encountered in natural language generation.
+
+Additionally, the model utilizes categorical cross-entropy as its loss function. This function is particularly suited for multi-class classification problems, such as predicting the next word in a sequence from a large vocabulary. By employing categorical cross-entropy, the model is penalized more severely when it makes incorrect predictions, particularly when the predicted probability distribution diverges significantly from the actual label. This encourages the model to become more precise in its predictions, thus improving its overall accuracy in generating coherent and meaningful poetic verses.</p>
 <h2>Model Analysis</h2>
 <p align="center">
 <img src="https://github.com/NavinBondade/Lisa-An-AI-That-Writes-Lovely-Poems/blob/main/Graphs/Loss.png" alt="Loss" >
