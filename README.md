@@ -24,7 +24,13 @@
 <p align="center">
 <img src="https://github.com/NavinBondade/Lisa-An-AI-That-Writes-Lovely-Poems/blob/main/Graphs/Model.png" alt="model" >
 </p> 
-<p>For generating the poetry, I have created a deep learning model that uses two LSTM layers which help the model to remember long-term dependencies and learn the relationship between the poem sentence. The LSTM layers are get followed by two dense layers, one uses RELU as an activation function, and the last dense layer using softmax.</p>
+<p>For generating poetry, I have developed a sophisticated deep learning model that leverages the power of Long Short-Term Memory (LSTM) layers, which are particularly effective in capturing and retaining long-term dependencies within sequences of text. This is crucial for poetry generation, as it enables the model to understand and preserve the flow and meaning across different sentences or lines of a poem.
+
+The architecture begins with an Embedding layer, which converts the input data into a dense representation, transforming words or tokens into vectors that can be more easily understood by the model. Following this, two LSTM layers are used sequentially. The first LSTM layer outputs a vector of size 100 from an input of 50 dimensions, capturing the contextual relationships between words in the sequence. The second LSTM further refines this representation, enabling the model to learn deeper patterns and dependencies.
+
+After the LSTM layers, the architecture incorporates two Dense layers. The first Dense layer, using the ReLU (Rectified Linear Unit) activation function, helps in learning non-linear relationships, introducing complexity and ensuring that the model can handle intricate patterns in poetic structure. Batch Normalization is applied next, which normalizes the output from the Dense layer, improving the model’s learning efficiency and stability. Finally, the last Dense layer utilizes a softmax activation function, providing a probability distribution over the output space, which is crucial for selecting the next word or token in the poem.
+
+This carefully designed architecture allows the model to balance creativity with structure, generating poems that are not only aesthetically pleasing but also coherent and contextually meaningful.</p>
 <h2>Model Traning</h2>
 <p>The model has trained for 170 epochs. During training, the model uses Adam as an optimizer and uses categorical cross-entropy as the loss function to penalize the model more when it makes a false prediction.</p>
 <h2>Model Analysis</h2>
